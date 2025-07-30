@@ -3,6 +3,7 @@ import Navigation from './components/Navigation'
 import Welcome from './pages/Welcome'
 import Create from './pages/Create'
 import Gallery from './pages/Gallery'
+import Edit from './pages/Edit'
 import './App.css'
 
 export default function App()
@@ -17,8 +18,12 @@ export default function App()
       element: <Create />
     },
     {
-      path: 'gallery',
+      path: '/gallery',
       element : <Gallery />
+    },
+    {
+      path: '/edit',
+      element: <Edit />
     }
   ])
   return (
