@@ -1,11 +1,12 @@
 import { Link } from "react-router";
 
+
 const Navigation = () => {
     return (
         <div className = "navigation-bar">
-            <p> Home</p>
-            <p> Create a crewmate</p>
-            <p> Crewmate Gallery</p>
+            <Link to='/'> <p>Home</p> </ Link>
+            <Link to='/create'> <p>Create a crewmate</p> </ Link>
+            <Link to='/gallery'> <p>Crewmate Gallery</p> </ Link>
         </div>
     )
 }
