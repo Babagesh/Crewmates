@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import supabase from '../client'
+import {supabase} from '../client'
 import Crewmate from '../components/Crewmate';
 
 const Gallery = () => {
@@ -23,7 +23,7 @@ const Gallery = () => {
 
     return (
         <div className = "gallery">
-
+            <Crewmate />
         </div>
     );
 }
