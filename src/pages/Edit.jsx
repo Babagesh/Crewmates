@@ -1,6 +1,6 @@
 const Edit = () => {
     return (
-        <div>
+        <div className = "edit">
             
         </div>
     );

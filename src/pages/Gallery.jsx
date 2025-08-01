@@ -4,7 +4,7 @@ import Crewmate from '../components/Crewmate';
 
 const Gallery = () => {
 
-    const {crewmates, updateCrewmates} = useState([])
+    const [crewmates, updateCrewmates] = useState([])
 
     useEffect(() => {
         const getCrewmates = async () => {
