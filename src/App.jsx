@@ -1,9 +1,10 @@
-import { useRoutes } from 'react-router';
+import { useRoutes } from 'react-router-dom';
 import Navigation from './components/Navigation'
 import Welcome from './pages/Welcome'
 import Create from './pages/Create'
 import Gallery from './pages/Gallery'
 import Edit from './pages/Edit'
+import Crewmate from './pages/Details'
 import './App.css'
 
 export default function App()
@@ -22,7 +23,11 @@ export default function App()
       element : <Gallery />
     },
     {
-      path: '/edit',
+      path: '/gallery/:id',
+      element: <Crewmate />
+    },
+    {
+      path: '/gallery/edit/:id',
       element: <Edit />
     }
   ])

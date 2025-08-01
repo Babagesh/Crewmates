@@ -8,22 +8,27 @@ const Gallery = () => {
 
     useEffect(() => {
         const getCrewmates = async () => {
-            const crewmates = await supabase
+            const {data} = await supabase
             .from('crewmates')
-            .
-            updateCrewmates(crewmates => {
-                [...crewmates, ]
-            });
+            .select()
+            .order('created_at', {ascending: false});
+            updateCrewmates(data);
 
         }
         getCrewmates();
-    }
-
-    )
+    }, [])
 
     return (
         <div className = "gallery">
-            <Crewmate />
+            {
+                crewmates.map(crewmate => 
+                    <Crewmate 
+                        key={crewmate.id}
+                        crewmateInfo = {crewmate}
+                    />
+                )
+            }
+            
         </div>
     );
 }

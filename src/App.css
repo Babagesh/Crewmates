@@ -37,8 +37,19 @@
   border: 1px solid red;
 }
 
+
+
 .create h1{
   margin-bottom: 5%;
+}
+
+.edit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  border: 1px solid red;
 }
 .options{
   display: flex;
@@ -51,5 +62,12 @@
 .submit-form{
   margin-top: 2rem;
   text-align: center;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+}
+
+.current-info{
+  display: flex;
+  flex-direction: row;
 }

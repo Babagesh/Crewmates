@@ -1,6 +1,9 @@
+import {supabase} from '../client'
+import {useParams} from 'react-router-dom'
 
+const Details = () => {
 
-const Details = (crewmateDetails) => {
+    const {id} = useParams();
     return (
         <div>
             
