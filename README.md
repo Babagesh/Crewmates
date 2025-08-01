@@ -2,7 +2,7 @@
 
 Submitted by: **Bhagyesh Jethwani**
 
-This web app: **insert description**
+This web app: **Crewmates**
 
 Time spent: **6** hours spent in total
 
@@ -24,7 +24,7 @@ The following **required** functionality is completed:
 - [x] **A previously created crewmate can be deleted from the crewmate list**
   - Using the edit form detailed in the previous _crewmates can be updated_ feature, there is a button that allows users to delete that crewmate
   - After deleting a crewmate, the crewmate should no longer be visible in the summary page
-  - [ ] **Each crewmate has a direct, unique URL link to an info page about them**
+  - [x] **Each crewmate has a direct, unique URL link to an info page about them**
     - Clicking on a crewmate in the summary page navigates to a detail page for that crewmate
     - The detail page contains extra information about the crewmate not included in the summary page
     - Users can navigate to to the edit form from the detail page
@@ -43,28 +43,30 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+Added time which crewmate was created at on detailed page.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+<div>
+    <a href="https://www.loom.com/share/51c07c7c0f6944f69a6e605d1089110d">
+      <p>Crewmates - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/51c07c7c0f6944f69a6e605d1089110d">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/51c07c7c0f6944f69a6e605d1089110d-cd11328cb2712f14-full-play.gif">
+    </a>
+  </div>
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with Loom
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+Didn't know that every select value returns a row. Had to use index operator to get an individual item.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Bhagyesh Jethwani]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

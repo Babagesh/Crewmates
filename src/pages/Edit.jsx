@@ -54,7 +54,7 @@ const Edit = () => {
             <h1> Update your Crewmate :)</h1>
             <h2 style={{marginBottom: '2rem'}}> Current Crewmate Info</h2>
             <div className = "current-info" style={{ display: "flex", flexDirection: "row", gap: "2rem", marginBottom: '5rem'}}>
-                {Object.entries(crewmateInfo).map(([key, value]) => (
+                {Object.entries(crewmateInfo).slice(2,5).map(([key, value]) => (
                     <div key={key}>
                         <strong>{key}:</strong> {value}
                     </div>
