@@ -49,6 +49,7 @@ Added time which crewmate was created at on detailed page.
 
 Here's a walkthrough of implemented user stories:
 <div>
+   <div>
     <a href="https://www.loom.com/share/51c07c7c0f6944f69a6e605d1089110d">
       <p>Crewmates - Watch Video</p>
     </a>
@@ -56,6 +57,7 @@ Here's a walkthrough of implemented user stories:
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/51c07c7c0f6944f69a6e605d1089110d-cd11328cb2712f14-full-play.gif">
     </a>
   </div>
+</div>
 
 GIF created with Loom
 
